@@ -16,7 +16,12 @@ O desafio consiste em estimular a prática de pequenos projetos voltados para HT
 
 ### 💣Desafios
 
-- Desafio 1 - Ícone de mídia social em camadas
+- Desafio 1 - Ícone de mídia social em camadas 
 <p align="center">
   <img width= '600' src=".github/gifts/Dia1.gif">
+</p><br>
+
+- Desafio 2 - Loader Animado
+<p align="center">
+  <img width= '600' src=".github/gifts/Dia2.gif">
 </p><br><br>
