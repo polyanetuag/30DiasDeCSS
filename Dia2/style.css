@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+html {
+    
+    background: rgb(20, 20, 20) !important;
+ }
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);                       /**/
+}
+
+.ring {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 0 #FFA500;
+    background: transparent;
+    animation: animate 1.4s linear infinite;
+}
+
+.text {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: #FFFACD;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 200px;
+    font-size: 22px;
+    background: transparent;
+    box-shadow: 0 0 5px #FF8C00;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
