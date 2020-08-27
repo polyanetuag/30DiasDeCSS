@@ -1,6 +1,6 @@
 
 
-<h1 align="center"> ▪▪▪ 30 dias de CSS🖌 ▪▪▪  </h1>
+<h1 align="center"> <strong>▪▪▪ 30 dias de CSS🖌 ▪▪▪ </strong></h1>
 
 ### 📚Sobre
 
@@ -24,4 +24,9 @@ O desafio consiste em estimular a prática de pequenos projetos voltados para HT
 - Desafio 2 - Loader Animado
 <p align="center">
   <img width= '600' src=".github/gifts/Dia2.gif">
-</p><br><br>
+</p><br>
+
+- Desafio 2 - Mudança de cor de texto quando entra em outra div
+<p align="center">
+  <img width= '600' src=".github/gifts/Dia3.gif">
+</p><br>
