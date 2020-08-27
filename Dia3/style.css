@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    background: #EE82EE;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+}
+
+.wrapper {
+    height: 100%;
+    width: 50%;
+    background: #C71585;
+    overflow:hidden;
+    color: #fafaf8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 2px solid #262626;
+}
+
+.slide {
+    position: absolute;
+    top: 50%;
+    white-space:nowrap;
+    font-size: 14em;
+    line-height: 220px;
+    overflow: hidden;
+    font-family: 'Anton', sans-serif;
+    animation: animate 25s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(0, -50%);
+    }
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
