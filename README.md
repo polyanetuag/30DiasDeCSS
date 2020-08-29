@@ -26,7 +26,12 @@ O desafio consiste em estimular a prática de pequenos projetos voltados para HT
   <img width= '600' src=".github/gifts/Dia2.gif">
 </p><br>
 
-- Desafio 2 - Mudança de cor de texto quando entra em outra div
+- Desafio 3 - Mudança de cor de texto quando entra em outra div
 <p align="center">
   <img width= '600' src=".github/gifts/Dia3.gif">
+</p><br>
+
+- Desafio 4 - Botão com efeito
+<p align="center">
+  <img width= '600' src=".github/gifts/Dia4.gif">
 </p><br>
