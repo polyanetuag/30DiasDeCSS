@@ -35,3 +35,16 @@ O desafio consiste em estimular a prática de pequenos projetos voltados para HT
 <p align="center">
   <img width= '600' src=".github/gifts/Dia4.gif">
 </p><br>
+
+- Desafio 5 - Efeito pulsar
+<p align="center">
+  <img width= '600' src=".github/gifts/Dia5.gif">
+</p><br>
+
+
+
+
+
+---
+
+Desenvolvido com ❤ por Polyane Tuag
