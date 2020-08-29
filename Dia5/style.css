@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1C1C1C;
+}
+
+.alignment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container  {
+    height: 100vh;
+    
+
+}
+
+.pulse {
+    width:80px;
+    height: 80px;
+    background: radial-gradient(#FF00FF,#EE00EE,#CD00CD, #8B008B);
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    border-radius: 50%;
+    color: #363636;
+    animation: pulsar 1.3s infinite;
+}
+
+
+
+@keyframes pulsar {
+    30% {
+        transform: scale(1.2);
+        opacity: 0.7;
+        box-shadow: white 0em 0em 0.6em;
+    }
+}
