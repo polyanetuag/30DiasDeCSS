@@ -41,7 +41,10 @@ O desafio consiste em estimular a prática de pequenos projetos voltados para HT
   <img width= '600' src=".github/gifts/Dia5.gif">
 </p><br>
 
-
+- Desafio 6 - Efeito Lightning Text
+<p align="center">
+  <img width= '600' src=".github/gifts/Dia6.gif">
+</p><br>
 
 
 
