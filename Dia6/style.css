@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+}
+
+.alignment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container {
+    height: 100vh;
+}
+
+.span-container {
+    width: 200px;
+    height: 200px;
+    font-family: 'Acme', sans-serif;
+    font-size: 50px;
+}
+.elements span {
+    letter-spacing: 3px;
+    color: var(--color-green-dark);
+    --color-green-dark: #023f02;
+    --color-green-light:#3FFF00;
+    animation: light 2s steps(5, jump-start) infinite;
+}
+
+#one {
+    animation-delay: 0s;
+}
+#two {
+    animation-delay: .2s;
+}
+#three {
+    animation-delay: .4s;
+}
+#four {
+    animation-delay: .6s;
+}
+#five {
+    animation-delay: .8s;
+}
+#six {
+    animation-delay: 1s;
+}
+#seven {
+    animation-delay: 1.2s;
+}
+#eight {
+    animation-delay: 1.4s;
+}
+#nine {
+    animation-delay: 1.6s;
+}
+#ten {
+    animation-delay: 1.8s;
+} 
+
+@keyframes light {
+   0% {
+       color:var(--color-green-dark);
+       text-shadow: none;
+    }
+    90% {
+        color:var(--color-green-dark);
+        text-shadow: none;
+    }
+    100% {
+        color: var(--color-green-light);
+        text-shadow: 0 0 5px yellowgreen;
+   }
+}
