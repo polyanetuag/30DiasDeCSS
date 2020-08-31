@@ -46,7 +46,10 @@ O desafio consiste em estimular a prática de pequenos projetos voltados para HT
   <img width= '600' src=".github/gifts/Dia6.gif">
 </p><br>
 
-
+- Desafio 7 - Preloader Animado
+<p align="center">
+  <img width= '600' src=".github/gifts/Dia7.gif">
+</p><br>
 
 ---
 
