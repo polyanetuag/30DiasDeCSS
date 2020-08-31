@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.alignment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 100vh;
+  background: linear-gradient(red,orangered,orange, gold);
+}
+
+.square {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  
+}
+
+.box {
+  height: 25px;
+  width: 25px;
+  background: white;
+  border-radius: 3px;
+  position: absolute;
+  margin: 5px;
+
+  animation: 3s ease-in-out infinite;
+}
+
+#square-one {
+  top: 20px;
+  right: 60px;
+  
+  animation-name: block-1;
+}
+#square-two {
+  top: 50px;
+  right: 60px;
+
+  animation-name: block-2;
+  animation-delay: .2s;
+}
+#square-three {
+  top: 50px;
+  right: 30px;
+
+  animation-name: block-3;
+  animation-delay: .3s;
+  
+}
+
+@keyframes block-1 {
+  0% {
+    top: 20px;
+    right: 60px;
+  }
+  8% {
+    top: 20px ;
+    right: 30px;
+  }
+  16% {
+    top: 20px ;
+    right: 30px;
+  }
+  24% {
+    top: 20px ;
+    right: 30px;
+  }
+  32% {
+    top: 50px ;
+    right: 30px;
+  }
+  40% {
+    top: 50px ;
+    right: 30px;
+  }
+  48% {
+    top: 50px ;
+    right: 30px;
+  }
+  56% {
+    top: 50px ;
+    right: 60px;
+  }
+  64% {
+    top: 50px;
+    right: 60px ;
+  }
+  72% {
+    top: 50px;
+    right: 60px ;
+  }
+  80% {
+    top: 20px;
+    right: 60px;
+  }
+  88% {
+    top: 20px;
+    right: 60px;
+  }
+  96% {
+    top: 20px;
+    right: 60px;
+  }
+}  
+
+
+ @keyframes block-2 {
+  0% {
+    top:50px;
+    right: 60px;
+  }
+  8% {
+    top: 20px;
+    right: 60px;
+  }
+  16% {
+    top: 20px;
+    right: 60px;
+  }
+  24% {
+    top: 20px;
+    right: 60px;
+  }
+  32% {
+    top: 20px;
+    right: 30px;
+  }
+  40% {
+    top: 20px;
+    right: 30px;
+  }
+  48% {
+    top:  20px;
+    right: 30px;
+  }
+  56% {
+    top: 50px ;
+    right: 30px;
+  }
+  64% {
+    top: 50px ;
+    right: 30px;
+  }
+  72% {
+    top: 50px;
+    right:  30px;
+  }
+  80% {
+    top:50px;
+    right: 60px;
+  }
+  88% {
+    top:50px;
+    right: 60px;
+  }
+  96% {
+    top: 50px;
+    right: 60px;
+  }
+}  
+
+
+@keyframes block-3 {
+  0% {
+    top: 50px;
+    right: 30px;
+  }
+  8% {
+    top: 50px;
+    right: 60px;
+  }
+  16% {
+    top: 50px;
+    right: 60px;
+  }
+  24% {
+    top: 50px;
+    right: 60px;
+  }
+  32% {
+    top: 20px;
+    right: 60px;
+  }
+  40% {
+    top: 20px;
+    right: 60px;
+  }
+  48% {
+    top: 20px;
+    right: 60px;
+  }
+  56% {
+    top: 20px;
+    right: 30px;
+  }
+  64% {
+    top: 20px;
+    right: 30px;
+  }
+  72% {
+    top: 20px;
+    right: 30px;
+  }
+  80% {
+    top: 50px;
+    right: 30px;
+  }
+  88% {
+    top: 50px;
+    right: 30px;
+  }
+  96% {
+    top: 50px;
+    right: 30px;
+  }
+} 
