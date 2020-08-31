@@ -4,7 +4,7 @@
 
  <p>O<strong> Desafio 3/30</strong> possui o efeito de deslocamento e ao passar do meio, mudar sua cor.
 
- Assim, foi necessário criar duas divs, ambas com 9 elementos iguais, para quando uma passar pelo meio e suma, a outra começe, dando essa continuidade.
+ Assim, foi necessário criar duas divs, ambas com 9 elementos iguais, para quando uma passar pelo meio e sumir, a outra comece, dando continuidade.
 
  Foi utilizado a propriedade animation com transform (translate).
 
