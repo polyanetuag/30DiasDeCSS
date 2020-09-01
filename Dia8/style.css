@@ -20,7 +20,7 @@ body {
   height: 80px;
   background:linear-gradient(#FF0000,#EE0000, #CD0000);
   transform: rotate(-45deg);
-  animation: beat 1.2s ease-out infinite;
+  animation: beat 1.5s linear infinite;
   
 }
 
@@ -61,12 +61,18 @@ body {
 
 @keyframes beat{
   0% {
-    transform: scale(.5) rotate(-45deg);
+    transform: scale(1) rotate(-45deg);
   }
-  50% {
-    transform: scale(.7) rotate(-45deg);
+  35% {
+    transform: scale(1.5) rotate(-45deg);
+  }
+  70% {
+    transform: scale(1) rotate(-45deg);
+  }
+  85% {
+    transform: scale(1.5) rotate(-45deg);
   }
   100% {
-    transform: scale(.5) rotate(-45deg);
+    transform: scale(1) rotate(-45deg);
   }
 } 
