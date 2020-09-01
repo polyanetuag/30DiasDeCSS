@@ -51,6 +51,18 @@ O desafio consiste em estimular a prática de pequenos projetos voltados para HT
   <img width= '600' src=".github/gifts/Dia7.gif">
 </p><br>
 
+- Desafio 8 - Coração Batendo
+<p align="center">
+  <img width= '600' src=".github/gifts/Dia8.gif">
+</p><br>
+
+
+
+
+
+
+
+
 ---
 
 Desenvolvido com ❤ por Polyane Tuag
