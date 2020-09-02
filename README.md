@@ -56,7 +56,10 @@ O desafio consiste em estimular a prática de pequenos projetos voltados para HT
   <img width= '600' src=".github/gifts/Dia8.gif">
 </p><br>
 
-
+- Desafio 9 - Pêndulo de Newton
+<p align="center">
+  <img width= '600' src=".github/gifts/Dia9.gif">
+</p><br>
 
 
 
