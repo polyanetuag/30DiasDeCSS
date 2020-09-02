@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: black;
+}
+.alignment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 400px;
+  height: 420px;
+  background: black;
+}
+
+.board {
+  width: 400px;
+  height: 8px;
+  background: #4F4F4F;
+  border-radius: 2px;
+}
+
+.balls {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ball {
+  display: inline-block;
+  height: 260px;
+  width: 3px;
+  border-radius: 2px;
+  background: #4F4F4F;
+  position: relative;
+  transform-origin: top;
+  
+}
+
+.ball::before {
+  content: "";
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  background: radial-gradient(#E8E8E8, #CFCFCF,#B5B5B5, #9C9C9C, #828282, #696969, #4F4F4F, #363636, #1C1C1C );
+  border-radius: 100%;
+  top: 100%;
+  left: -32px;
+}
+
+.ball:first-child {
+  animation: left-ball 1s linear infinite;
+  transform-origin: top;
+}
+
+.ball:last-child {
+  animation: right-ball 1s linear infinite;
+  transform-origin: top;
+  animation-delay: .5s;
+}
+
+@keyframes left-ball {
+  0% , 50% , 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(50deg)
+  }
+}
+
+@keyframes right-ball {
+  0% , 50% , 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-50deg)
+  }
+} 
+
+
+
+
+
+
+
+/* 
+
+.balls {
+  display: flex;
+  width: 200px;
+  margin: 300px 10px 10px 180px;
+}
+
+.ball {
+  width: 34px;
+  height: 33px;
+  background: blue;
+  border-radius: 50%;
+}
+
+.ball:nth-child(1) {
+  animation: left 2s ease-in-out infinite;
+  transform: translateX(-50%);
+}
+
+.ball:nth-child(5) {
+  animation: right 2s ease-in-out infinite;
+  transform-origin: top;
+}
+
+@keyframes left {
+  0% , 50% , 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(30deg)
+  }
+}
+
+@keyframes right {
+  0% , 50% , 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-30deg)
+  }
+} */
