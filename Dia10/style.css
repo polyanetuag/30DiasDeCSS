@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.alignment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 100vh;
+  background: rgb(6, 44, 18);
+}
+
+.text {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 60px;
+  color: white;
+  position: relative;
+}
+
+.text::before {
+  content: "";
+  position: absolute;
+  width: 70px ;
+  height: 70px;
+  background-repeat: no-repeat;
+  left: 170px; 
+  top: 5px;
+  animation: icons 3s linear infinite;
+}
+
+@keyframes icons {
+  0%, 49% {
+    background-image: url(icons/computer-line.svg);
+  }
+  50%, 74% {
+    background-image: url(icons/cup-line.svg);
+  }
+  75%, 99% {
+    background-image: url(icons/fries-line.svg);
+  }
+}
