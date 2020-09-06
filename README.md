@@ -66,9 +66,14 @@ O desafio consiste em estimular a prática de pequenos projetos voltados para HT
   <img width= '600' src=".github/gifts/Dia10.gif">
 </p><br>
 
-- Desafio 11 -Botão com Efeito Hover
+- Desafio 11 - Botão com Efeito Hover
 <p align="center">
   <img width= '600' src=".github/gifts/Dia11.gif">
+</p><br>
+
+- Desafio 12 - Efeito de Preenchimento ao passar o mouse
+<p align="center">
+  <img width= '600' src=".github/gifts/Dia12.gif">
 </p><br>
 
 
