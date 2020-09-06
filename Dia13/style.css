@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fffdfa;
+  
+}
+
+.effects {
+  display: flex;
+  font-size: 40px;
+  font-family: 'Nunito', sans-serif; 
+  width: 300px;
+  justify-content: space-evenly;
+}
+
+.alignment {
+  animation: letter 1.05s alternate-reverse infinite;
+  display: block;
+  justify-content: center;
+ 
+  background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(88,130,242,0.9500175070028011) 30%, rgba(221,92,243,1) 50%, rgba(154,95,243,1) 71%, rgba(249,135,250,1) 100%); 
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.two {
+  animation-delay: .3s;
+}
+
+.three {
+  animation-delay: .6s;
+}
+.four {
+  animation-delay: .9s;
+}
+.five {
+  animation-delay: 1.2s;
+}
+.six {
+  animation-delay: 1.5s;
+}
+.seven {
+  animation-delay: 1.8s;
+}
+
+
+@keyframes letter {
+  from  {
+    transform: translateY(30px);
+    transition: .5s;
+  }
+  to {
+    transform: translateY(0px);
+    transition: .5s;
+  }
+} 
+
