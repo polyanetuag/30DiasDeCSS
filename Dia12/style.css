@@ -1,0 +1,36 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #008B8B;
+}
+
+.alignment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  position: relative;
+  color: #00CDCD;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: context-menu;
+}
+
+.text::before {
+  content:"#30diasCSS";
+  position: absolute;
+  overflow: hidden;
+  top: 0%;
+  left: 0%;
+  color: white;
+  height: 0%;
+  transition: 1.2s;
+}
+
+.text:hover::before {
+  height: 100%;
+}
