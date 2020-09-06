@@ -76,7 +76,10 @@ O desafio consiste em estimular a prática de pequenos projetos voltados para HT
   <img width= '600' src=".github/gifts/Dia12.gif">
 </p><br>
 
-
+- Desafio 13 - Loading com Efeito
+<p align="center">
+  <img width= '600' src=".github/gifts/Dia13.gif">
+</p><br>
 
 
 
