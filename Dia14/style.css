@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align-last: center;
+  background: radial-gradient(#CFCFCF,#B5B5B5,#9C9C9C, #828282,#696969, #4F4F4F, #363636, #1C1C1C , #000000 );
+}
+
+.text {
+  font-size: 100px;
+  font-family: 'Lato', sans-serif;
+  animation: code 5s linear infinite;
+  height: 300px;
+  
+  background-size: 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url(https://storage.needpix.com/rsynced_images/matrix-1461373324WTC.jpg);
+}
+
+@keyframes code {
+  0% {
+    background-position-y: 0%;
+  }
+  100% {
+    background-position-y: 100%;
+  }
+}
+
