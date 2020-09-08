@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+  width: 800px;
+}
+
+.sky {
+  position: absolute;
+  height: 500px;
+  width: 800px;
+  top: 0px;
+  background: linear-gradient(#00FFFF, #98F5FF, White, #AFEEEE, #ADD8E6, #87CEFA, #1E90FF, #0000FF);
+  
+}
+
+.sea {
+  position: absolute;
+  height: 1200px;
+  width: 1200px;
+  top: 0px;
+
+  background-image: url(icons/sea-blue-sky.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+  transition: 1s;
+  animation: sea 5s linear infinite;
+}
+
+.boat img {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  top: 10px;
+  
+  transition: 1s;
+  animation: float 2s linear infinite;
+} 
+
+@keyframes float {
+  0% {
+    transform:rotate(2deg);
+  }
+  50% {
+    transform: translateY(2px);
+  }
+  100% {
+    transform:rotate(2deg);
+  }
+}
+
+ @keyframes sea {
+  0% { background-position-x: 0px; }
+	100%{ background-position-x: 200px; }
+}
+
+
+
+
