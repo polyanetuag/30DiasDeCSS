@@ -1,0 +1,53 @@
+
+
+.buttons {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background: black;
+ 
+}
+
+.effect {
+  border: none;
+  color: #F8F8FF;
+  padding: 20px;
+  margin: 10px;
+  font-size: 24px;
+  line-height: 24px;
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 400ms ease;
+  
+}
+
+.spin {
+  background: linear-gradient(#DAA520, #FFC125, #FFD700);
+  transform-style: preserve-3d;
+}
+
+.spin::after {
+  top: -100%;
+  left: 0px;
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  background: linear-gradient(#228B22,#32CD32, #7FFF00 );
+  border-radius: 10px;
+  box-sizing: border-box;
+  content: "Feito ✔" ;
+  
+  transform-origin: left bottom;
+  transform: rotateX(90deg);
+
+}
+
+.spin:hover {
+  transform-origin: center bottom;
+  transform: rotateX(-90deg) translateY(100%);
+}
