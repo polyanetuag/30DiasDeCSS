@@ -1,8 +1,8 @@
-p align="center"><strong>Botão com Efeito Checked</strong><br><br>
-  <img width= '400' src="../.github/gifts/Dia16.gif">
+<p align="center"><strong>Botão com Efeito Checked</strong><br><br>
+ <img width= '400' src="../.github/gifts/Dia16.gif">
 </p><br>
 
- <p><strong>Desafio 6/30</strong></p>
+ <p><strong>Desafio 16/30</strong></p>
  
  Para este desafio, utilizei as propriedades:
  - transform-style 
