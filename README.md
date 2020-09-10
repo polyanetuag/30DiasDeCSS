@@ -91,6 +91,12 @@ O desafio consiste em estimular a prática de pequenos projetos voltados para HT
   <img width= '600' src=".github/gifts/Dia15.gif">
 </p><br>
 
+- Desafio 16 - Botão com Efeito Checked
+<p align="center">
+  <img width= '600' src=".github/gifts/Dia16.gif">
+</p><br>
+
+
 ---
 
 Desenvolvido com ❤ por Polyane Tuag
