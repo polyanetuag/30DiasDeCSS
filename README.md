@@ -96,6 +96,13 @@ O desafio consiste em estimular a prática de pequenos projetos voltados para HT
   <img width= '600' src=".github/gifts/Dia16.gif">
 </p><br>
 
+- Desafio 17 - Loader Animado (Efeito Flip)
+<p align="center">
+  <img width= '600' src=".github/gifts/Dia17.gif">
+</p><br>
+
+
+
 
 ---
 
