@@ -101,7 +101,10 @@ O desafio consiste em estimular a prática de pequenos projetos voltados para HT
   <img width= '600' src=".github/gifts/Dia17.gif">
 </p><br>
 
-
+- Desafio 18 - Texto com Efeito Esfumaçado
+<p align="center">
+  <img width= '600' src=".github/gifts/Dia18.gif">
+</p><br>
 
 
 ---
