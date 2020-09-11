@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: black;
+}
+
+.text {
+  font-size: 60px;
+  font-family: 'Butcherman', cursive;
+  letter-spacing: 15px;
+  
+  background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(48,4,4,1) 4%, rgba(85,7,7,1) 22%, rgba(245,16,16,1) 55%, rgba(255,0,0,1) 97%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  transition: 1s;
+  animation: fog 4s alternate infinite;
+}
+
+@keyframes fog {
+  from {
+    transform: rotateX(60deg) translateY(60px);
+	  opacity: 0;
+	  filter: blur(15px);
+  }
+  to {
+    transform:skew(10deg);
+  }
+}
+
+.text span:nth-child(0) {
+  transition-delay: 0s;
+}
+.text span:nth-child(1) {
+  transition-delay: 0.3s;
+}
+.text span:nth-child(2) {
+  transition-delay: 0.6s;
+}
+.text span:nth-child(3) {
+  transition-delay: 0.9s;
+}
+.text span:nth-child(4) {
+  transition-delay: 1.2s;
+}
+.text span:nth-child(5) {
+  transition-delay: 1.5s;
+}
+.text span:nth-child(6) {
+  transition-delay: 1.8s;
+}
+.text span:nth-child(7) {
+  transition-delay: 2.1s;
+}
+.text span:nth-child(8) {
+  transition-delay: 2.3s;
+}
+.text span:nth-child(9) {
+  transition-delay: 2.6s;
+}
