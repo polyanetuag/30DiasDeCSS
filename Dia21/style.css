@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 100px;
+  width: 400px;
+}
+
+.text {
+  font-size: 40px;
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  animation: shine 1.5s linear infinite;
+}
+
+.balls {
+  position: absolute;
+  width: 400px;
+  height: 100px;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  top: -70px;
+  left: 155px;
+
+  animation: bounce 1s ease infinite;
+}
+
+.ball:nth-last-child(1) {
+  top: -110px;
+  margin:40px;
+  animation-delay: .2s;
+}
+
+.ball:nth-last-child(2) {
+  top: -150px;
+  margin:80px;
+  animation-delay: .3s;
+}
+ 
+@keyframes shine {
+  0% { opacity: 1;}
+  50% {opacity: .6;}
+  100% { opacity: 1;}
+}
+
+@keyframes bounce {
+  0% {transform: scale(1,1) translateY(0)}
+  5% {transform: scale(1.1,0.9) translateY(0)}
+  50% {transform: scale(0.9,1.1) translateY(-40px)}
+  75% {transform: scale(0.9,1.1) translateY(-40)}
+  100% {transform: scale(1,1) translateY(0)}
+} 
+
