@@ -111,7 +111,10 @@ O desafio consiste em estimular a prática de pequenos projetos voltados para HT
   <img width= '600' src=".github/gifts/Dia20.gif">
 </p><br>
 
-
+- Desafio 21 - Efeito Loading
+<p align="center">
+  <img width= '600' src=".github/gifts/Dia21.gif">
+</p><br>
 
 
 ---
