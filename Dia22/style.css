@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  background: black;
+  display: flex;
+}
+
+.menu {
+  width: 60px;
+  height: 60px;
+  margin: 100px auto;
+  position: relative;
+}
+
+.menu label {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  cursor: pointer;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  transition: all .3s ease-out;
+}
+
+#check {
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+
+.line {
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  top: 29px;
+  left: 11px;
+  background: white;
+  border-radius: 2px;
+  transition: all .3s ease-out;
+}
+
+.line::before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  bottom: 12px;
+  background: white;
+  border-radius: 2px;
+  transition: all .3s ease-out;
+}
+
+.line::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  top: 12px;
+  background: white;
+  border-radius: 2px;
+  transition: all .3s ease-out;
+}
+
+#check:checked ~ .line {
+  background: transparent;
+}
+
+#check:checked ~ .line::after {
+  transform: translate(0px, -10px) rotate(-45deg);
+}
+
+#check:checked ~ .line::before {
+  transform: translate(0px, 14px) rotate(45deg);
+}
+
+#check:checked ~ label {
+  border-radius: 50%;
+}
