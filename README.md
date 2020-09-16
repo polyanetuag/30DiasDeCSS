@@ -121,6 +121,11 @@ O desafio consiste em estimular a prática de pequenos projetos voltados para HT
   <img width= '600' src=".github/gifts/Dia22.gif">
 </p><br>
 
+- Desafio 23 - Botão Efeito Liquid Fill
+<p align="center">
+  <img width= '600' src=".github/gifts/Dia23.gif">
+</p><br>
+
 
 ---
 
