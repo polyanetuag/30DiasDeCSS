@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background:rgb(28, 26, 26);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container div {
+  margin: 10px;
+}
+
+.container div label {
+  cursor: pointer;
+}
+
+.container div label #checkbox {
+  display: none;
+}
+
+.container div label span {
+  position: relative;
+  display: inline-block;
+  background:#424242;
+  padding: 15px 30px;
+  color: rgb(100, 100, 100);
+  text-shadow: 0 2px 4px rgba(0,0,0,.5);
+  border-radius: 30px;
+  font-size: 22px;
+  transition: .5s;
+  user-select: none;
+  overflow: hidden;
+}
+
+.container div label span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(255, 255, 255, .1);
+}
+
+.container div:nth-child(1) label #checkbox:checked ~ span{
+  background: #64DAFA;
+  color: #fff;
+  box-shadow: 0 2px 20px #64DAFA;
+}
+
+.container div:nth-child(2) label #checkbox:checked ~ span{
+  background: #00BB7C;
+  color: #fff;
+  box-shadow: 0 2px 20px #00BB7C;
+}
+
+.container div:nth-child(3) label #checkbox:checked ~ span{
+  background: #F7DD00;
+  color: #fff;
+  box-shadow: 0 2px 20px #F7DD00;
+}
+
+.container div:nth-child(4) label #checkbox:checked ~ span{
+  background: #5D71B6;
+  color: #fff;
+  box-shadow: 0 2px 20px #5D71B6;
+}
+
+.container div:nth-child(5) label #checkbox:checked ~ span{
+  background: #ED2F31;
+  color: #fff;
+  box-shadow: 0 2px 20px #ED2F31;
+}
+
+.container div:nth-child(6) label #checkbox:checked ~ span{
+  background: rgb(255,134,0);
+  background: linear-gradient(0deg, rgba(255,134,0,1) 44%, rgba(1,114,182,1) 76%);
+  color: #fff;
+  box-shadow: 0 2px 20px rgb(255,134,0);
+}
+
+.container div:nth-child(7) label #checkbox:checked ~ span{
+ background: #693BB0;
+  color: #fff;
+  box-shadow: 0 2px 20px #693BB0;
+}
+
+.container div:nth-child(8) label #checkbox:checked ~ span{
+ background: #F43925;
+  color: #fff;
+  box-shadow: 0 2px 20px #F43925;
+}
