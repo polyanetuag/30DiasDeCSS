@@ -136,6 +136,11 @@ O desafio consiste em estimular a prática de pequenos projetos voltados para HT
   <img width= '600' src=".github/gifts/Dia25.gif">
 </p><br>
 
+- Desafio 26 - Loading Diamante
+<p align="center">
+  <img width= '600' src=".github/gifts/Dia26.gif">
+</p><br>
+
 
 
 ---
