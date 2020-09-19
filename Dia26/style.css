@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: black;
+  overflow: hidden;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.diamond {
+  position: relative;
+  transform: translate(-50%, -50%);
+  width: 160px;
+
+  animation: diamond 2s ease-in-out infinite;
+  transition: .5s;
+}
+
+
+.face:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #FC00FF 0%, #00DBDE 100%);
+  transform: skew(-30deg);
+  z-index: 2;
+}
+
+.face:nth-child(1)::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 60px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 108px 0 12px 50px;
+  border-color: #e906ed transparent transparent transparent;
+  transform: skew(45deg);
+}
+
+.face:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 35px;
+  display: block;
+  width: 90px;
+  height: 50px;
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 50%);
+  z-index: 1;
+}
+
+.face:nth-child(2)::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: -10px;
+  width: 0;
+  height: 0;
+  border-top: 108px solid;
+  border-left: 55px solid transparent;
+  border-right: 55px solid transparent;
+  color: #33AFDF;
+}
+
+.face:nth-child(3) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  transform: skew(30deg);
+  z-index: 2;
+}
+
+.face:nth-child(3)::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: -108px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 108px 50px 110px 0;
+  border-color:  #e906ed transparent transparent transparent;
+  transform: skew(-45deg);
+}
+
+.face:nth-child(4) {
+  position: absolute;
+  top: -5px;
+  left: 15px;
+  display: block;
+  width: 130px;
+  height: 10px;
+  border-radius: 50%;
+  background-color:  #33AFDF;
+  z-index: 4;
+}
+
+@keyframes diamond {
+  0% {transform: translateY(0px);}
+  50% {transform: translateY(10px); opacity: .8;}
+  100% {transform: translateY(0px);}
+} 
