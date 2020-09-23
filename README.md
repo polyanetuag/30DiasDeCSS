@@ -155,6 +155,11 @@ O desafio consiste em estimular a prática de pequenos projetos voltados para HT
 <p align="center">
   <img width= '600' src=".github/gifts/Dia29.gif">
 </p><br>
+
+- Desafio 30 - Efeito Partículas
+<p align="center">
+  <img width= '600' src=".github/gifts/Dia30.gif">
+</p><br>
 ---
 
 Desenvolvido com ❤ por Polyane Tuag
