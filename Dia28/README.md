@@ -1,10 +1,10 @@
-<p align="center"><strong>Transição de Cores no Background</strong><br><br>
- <img width= '400' src="../.github/gifts/Dia28.gif">
+<p align="center"><strong>Efeito Texto Gradiente</strong><br><br>
+ <img width= '400' src="../.github/gifts/Dia29.gif">
 </p><br>
 
  <p><strong>Desafio 28/30</strong>
  
- Para fazer a mudança de cores, utilizei um animation tanto para o background quanto para o texto
+ Para dar o efeito de degradê ao texto, utilizei um background linear gradient e as propriedades background-clip e text-fill-color.
  
  </p>
 
