@@ -1,0 +1,23 @@
+.layout {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  cursor: pointer;
+} 
+
+#canvas {
+  border: 1px solid;
+}
+
+.title {
+  display: inline-block;
+  position: absolute;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  user-select: none;
+  transform: translate(-50%,-50%);
+  color: rgba(255,255,255,.68);
+  /* border: .075em solid rgba(255,255,255,.1); */
+}
