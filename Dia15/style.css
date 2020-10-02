@@ -37,7 +37,7 @@ body {
   background-size: 100%;
   
   transition: 1s;
-  animation: sea 5s linear infinite;
+  animation: sea 5s linear infinite alternate-reverse;
 }
 
 .boat img {
