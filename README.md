@@ -14,7 +14,7 @@ O desafio consiste em estimular a prática em pequenos projetos com HTML E CSS d
 
 ---
 
-### 💣Desafios
+### 💣Desafios diários
 
 - Desafio 1 - Ícone de mídia social em camadas 
 <p align="center">
