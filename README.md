@@ -1,6 +1,6 @@
 
 
-<h1 align="center"> <strong>▪▪▪ 30 dias de CSS🖌 ▪▪▪ </strong></h1>
+<h1 align="center"> <strong>▪ 30 dias de CSS🖌▪ </strong></h1>
 
 ### 📚Sobre
 
