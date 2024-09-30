@@ -10,7 +10,7 @@ O desafio ***"30 dias de CSS"*** visa ajudá-lo a melhorar suas habilidades de c
 ---
 ### 🎯Objetivo
 
-O desafio consiste em estimular a prática em pequenos projetos com HTML E CSS durante 30 dias.<br><br>
+O desafio consiste em estimular a prática de programação em pequenos projetos com HTML E CSS durante 30 dias.<br><br>
 
 ---
 
