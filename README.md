@@ -4,7 +4,7 @@
 
 ### 📚Sobre
 
-O desafio ***"30 dias de CSS"*** visa ajudá-lo a melhorar suas habilidades de codificação em HTML5 e CSS3 com a criação de mini projetos diários. <br><br>
+O desafio ***30 dias de CSS*** visa ajudá-lo a melhorar suas habilidades de codificação em HTML5 e CSS3 com a criação de mini projetos diários. <br><br>
 
 
 ---
